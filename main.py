@@ -2,8 +2,8 @@ import cv2 as cv
 
 cap = cv.VideoCapture(0)
 
-face_cascade = cv.CascadeClassifier('/home/hiago/opencv/data/haarcascades/haarcascade_frontalface_default.xml')
-eye_cascade = cv.CascadeClassifier('/home/hiago/opencv/data/haarcascades/haarcascade_eye.xml')
+face_cascade = cv.CascadeClassifier('/path/to/haarcascades/haarcascade_frontalface_default.xml')
+eye_cascade = cv.CascadeClassifier('/path/to/haarcascades/haarcascade_eye.xml')
 
 while(True):
     # Capture frame-by-frame
